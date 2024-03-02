@@ -71,10 +71,10 @@ const char* htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
     <style>
     .arrows {
       font-size:40px;
-      color:red;
+      color:black;
     }
     td.button {
-      background-color:black;
+      background-color:purple;
       border-radius:25%;
       box-shadow: 5px 5px #888888;
     }
@@ -134,7 +134,7 @@ const char* htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
     </style>
   
   </head>
-  <body class="noselect" align="center" style="background-color:white">
+  <body class="noselect" align="center" style="background-color:white">  
      
     <!--h2 style="color: teal;text-align:center;">Wi-Fi Camera &#128663; Control</h2-->
     
@@ -162,7 +162,7 @@ const char* htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
         <td style="text-align:left"><b>Speed:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
-            <input type="range" min="0" max="255" value="150" class="slider" id="Speed" oninput='sendButtonInput("Speed",value)'>
+            <input type="range" min="0" max="255" value="190" class="slider" id="Speed" oninput='sendButtonInput("Speed",value)'>
           </div>
         </td>
       </tr>        
