@@ -1,1 +1,2 @@
-ESP32 cam module car code and diagram 
+ESP32 camera module car code and diagram 
+with speed contorl, live camera feed and flashlight 
