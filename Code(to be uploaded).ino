@@ -2,6 +2,7 @@
 //and ESPAsyncWebServer library :https://github.com/me-no-dev/ESPAsyncWebServer
 // to access web app to control the bot type http://192.168.4.1/ in googel serch box
 // install ESP 32 dev module on arduino using preferance link : https://dl.espressif.com/dl/package_esp32_index.json
+// to change wifi password and name(ssid) change values of line 65 and 66
 // credits to Kx393 for making code 
 
 #include "esp_camera.h"
@@ -61,8 +62,8 @@ const int PWMLightChannel = 3;
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
-const char* ssid     = "work_pls";
-const char* password = "124421";
+const char* ssid     = "Wifi_car";
+const char* password = "1234";
 
 AsyncWebServer server(80);
 AsyncWebSocket wsCamera("/Camera");
