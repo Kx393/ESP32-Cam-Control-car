@@ -1,3 +1,8 @@
+//install AsyncTCP liabrary : https://github.com/me-no-dev/AsyncTCP
+//and ESPAsyncWebServer library :https://github.com/me-no-dev/ESPAsyncWebServer
+// to access web app to control the bot type http://192.168.4.1/ in googel serch box
+// install ESP 32 dev module on arduino using preferance link :
+
 #include "esp_camera.h"
 #include <Arduino.h>
 #include <WiFi.h>
