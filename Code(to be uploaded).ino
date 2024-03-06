@@ -1,8 +1,9 @@
+// to sponsor pls upi 8010874802@fam
 //install AsyncTCP liabrary : https://github.com/me-no-dev/AsyncTCP
 //and ESPAsyncWebServer library :https://github.com/me-no-dev/ESPAsyncWebServer
 // to access web app to control the bot type http://192.168.4.1/ in googel serch box
 // install ESP 32 dev module on arduino using preferance link : https://dl.espressif.com/dl/package_esp32_index.json
-// to change wifi password and name(ssid) change values of line 66 and 67
+// to change wifi password and name(ssid) change values of line 67 and 68
 // to control ur robot connect esp32 cam module to phone using wifi normally 
 // credits to Kx393 for making code 
 
